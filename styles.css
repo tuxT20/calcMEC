@@ -177,3 +177,22 @@ body
   font-weight:bold;
   font-size: 22px;
 }
+
+#limparCheckboxes {
+  background-color: #FF6347; /* Cor de fundo do botão (tom de vermelho) - você pode ajustar conforme necessário */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Altere a fonte conforme necessário */
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#limparCheckboxes:hover {
+  background-color: #D22222; /* Cor de fundo do botão ao passar o mouse (tom de vermelho mais escuro) */
+}
