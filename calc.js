@@ -1,6 +1,12 @@
-// Seu script JavaScript existente
 
-// Ajuste para calcular o desconto corretamente
+function limparCheckboxes() {
+  var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  
+  checkboxes.forEach(function(checkbox) {
+    checkbox.checked = false;
+  });
+}
+
 function calcTotal() {
   var itemTotal = 0;
   var discountPercentage = parseFloat(document.getElementById("discount").value) || 0;
@@ -24,4 +30,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (calcButton) {
     calcButton.addEventListener("click", calcTotal, false);
   }
+
+  var limparCheckboxesButton = document.getElementById("limparCheckboxes");
+  if (limparCheckboxesButton) {
+    limparCheckboxesButton.addEventListener("click", limparCheckboxes, false);
+  }
+  
+});
 });
