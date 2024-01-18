@@ -100,11 +100,10 @@ label
   margin-top: 30px; /* Ajuste o espaçamento conforme necessário */
 }
 
-.discount {
-  text-align: center;
-  font-size: 30px;
-  width: 300px; /* Ajuste a largura conforme necessário */
-}
+  .discountDiv {
+      margin-bottom: 10px;
+      text-align:center;
+    }
 
 subtitulo{
 
