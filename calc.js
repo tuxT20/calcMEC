@@ -35,6 +35,5 @@ document.addEventListener("DOMContentLoaded", function () {
   if (limparCheckboxesButton) {
     limparCheckboxesButton.addEventListener("click", limparCheckboxes, false);
   }
-  
 });
-});
+
