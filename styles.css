@@ -108,20 +108,19 @@ label
 
 h1
 {
-	text-align:center;
+  text-align:center;
   font-family:arial;
 }
 
 h2
 {
-	text-align:center;
+  text-align:center;
   font-family:arial;
 }
 
 titulo
-
 {
-	text-align: center;
+  text-align: center;
   font-family: 'Arial', sans-serif; /* Altere a fonte conforme necessário */
   font-size: 36px; /* Altere o tamanho da fonte conforme necessário */
   color: #0077cc; /* Cor azul - você pode ajustar a cor conforme necessário */
