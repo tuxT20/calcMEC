@@ -143,19 +143,19 @@ body
   background-color:#BDE3F2;
 }
 .button {
-  background-color: red;
+  background-color: #008000; /* Cor de fundo do botão (tom de vermelho) - você pode ajustar conforme necessário */
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
-  font-family:arial;
-  border-radius: 10px;
-  border: 2px solid #8C4130;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Altere a fonte conforme necessário */
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
 }
 
 .button:hover
