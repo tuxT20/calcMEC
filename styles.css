@@ -118,6 +118,15 @@ h2
   font-family:arial;
 }
 
+titulo
+
+{
+	text-align: center;
+  font-family: 'Arial', sans-serif; /* Altere a fonte conforme necessário */
+  font-size: 36px; /* Altere o tamanho da fonte conforme necessário */
+  color: #0077cc; /* Cor azul - você pode ajustar a cor conforme necessário */
+  margin-top: 20px; /* Ajuste o espaçamento superior conforme necessário */
+}
 body
 {
   background-color:#BDE3F2;
