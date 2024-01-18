@@ -107,9 +107,7 @@ label
 }
 
 subtitulo{
- font-style: italic; /* Texto em itálico */
-  font-size: 14px; /* Tamanho da fonte pequeno - ajuste conforme necessário */
-  margin-top: 0; /* Remove o espaçamento superior */
+
 }
 
 h1
@@ -123,6 +121,14 @@ h2
   text-align:center;
   font-family:arial;
 }
+
+h2.subtitle
+{
+	 font-style: italic; /* Texto em itálico */
+  font-size: 14px; /* Tamanho da fonte pequeno - ajuste conforme necessário */
+  margin-top: 0; /* Remove o espaçamento superior */
+}
+
 
 titulo
 {
