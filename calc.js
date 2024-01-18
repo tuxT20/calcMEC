@@ -15,7 +15,7 @@ function calcTotal() {
   var discountAmount = (itemTotal * discountPercentage) / 100;
   itemTotal -= discountAmount;
 
-  document.getElementById("total").innerHTML = "Total:  $" + itemTotal.toFixed(2) + "k";
+  document.getElementById("total").innerHTML = "Total:  $" + itemTotal.toFixed(2)/1000 + "k";
 }
 
 document.addEventListener("DOMContentLoaded", function () {
